@@ -15,7 +15,9 @@ class School
     roster[level]
   end
   def sort
-    roster[level]
+    roster[level] = sorted
+    sorted.sort
+    sorted
   end
 end
 end
