@@ -9,13 +9,13 @@ class School
     def add_student(student, level)
     roster[level] ||= []
     roster[level] << student
+    def sort
+    roster.sort.to_h
+  end
   end
   
   def grade(level)
     roster[level]
-  end
-  def sort
-    roster.sort.to_h
   end
 end
 end
