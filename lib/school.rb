@@ -13,11 +13,6 @@ class School
   
   def grade(level)
     roster[level]
-    def sort
-    roster[level] = sorted
-    sorted.sort
-    sorted
-  end
   end
   
 end
